@@ -1,0 +1,6 @@
+type user {
+    userID: ID!
+    name: String @search(by: [term])
+    email: String @search(by: [term])
+    password: String @search(by: [term])
+}
