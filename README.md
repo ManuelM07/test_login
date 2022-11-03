@@ -2,11 +2,9 @@
 
 This is a test example, it should not be considered for a real project, since it has security problems and bad practices.
 
-Usage
+## Usage
 
-## Step 1
-
-## Run Image
+## Step 1 - Run Image
 ```
 docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:v20.11.0
 ```
@@ -63,5 +61,5 @@ pip3 install -r requirements.txt
 
 ### 5.4.Start App
 ```
-python3 menu.py
+python3 app.py
 ```
